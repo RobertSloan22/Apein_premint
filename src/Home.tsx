@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import * as anchor from "@project-serum/anchor";
-
+import { CrossmintPayButton } from "@crossmint/client-sdk-react-ui";
 import styled from "styled-components";
 import { Container, Snackbar } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
@@ -784,6 +784,12 @@ const Home = (props: HomeProps) => {
                 </MintContainer>
               </>
             )}
+            <CrossmintPayButton
+    collectionTitle="<TITLE_FOR_YOUR_COLLECTION>"
+    collectionDescription="<DESCRIPTION_OF_YOUR_COLLECTION>"
+    collectionPhoto="<OPT_URL_TO_PHOTO_COVER>"
+    clientId="<YOUR_CLIENT_ID>"
+/>
           </StyledPaper>
         </Container>
 
