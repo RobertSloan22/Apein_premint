@@ -786,10 +786,10 @@ const Home = (props: HomeProps) => {
               </>
             )}
             <CrossmintPayButton
-    collectionTitle="<TITLE_FOR_YOUR_COLLECTION>"
-    collectionDescription="<DESCRIPTION_OF_YOUR_COLLECTION>"
-    collectionPhoto="<OPT_URL_TO_PHOTO_COVER>"
-    clientId="<YOUR_CLIENT_ID>"
+    collectionTitle="Ape In OG Mint Pass"
+    collectionDescription="Ape In Poker OG Mint Pass"
+    collectionPhoto="https://arweave.net/z_Y1yzdukmOSPN_B4fe0hRt8B-YIUXJRUHnf4eKumVQ?ext=gif"
+    clientId="e88b7794-76d6-4fe4-8c24-722940c4d688"
 />
           </StyledPaper>
         </Container>
