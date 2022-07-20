@@ -416,8 +416,9 @@ const Home = (props: HomeProps) => {
             open: true,
             message: "Congratulations! Mint succeeded!",
             severity: "success",
-            hideDuration: 7000,
+            hideDuration: 4000,
           });
+          window.location.reload();
           refreshCandyMachineState("processed");
         } else if (status && !status.err) {
           setAlertState({
